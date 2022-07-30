@@ -15,7 +15,13 @@ gasSavingsForm.addEventListener('submit', (e) => {
 
     const calculator = new GasSavingsCalculator(data);
     const result = calculator.calculate();
-    alert(`Your savings: ${result.savings.toLocaleString("en-US", {style:"currency", currency:"USD"})} per year`);
+    const savingVehicle = result.cost1 > result.cost2 ? 'Vehicle 2' : 'Vehicle 1';
+
+    alert(`
+      Vehicle 1: ${result.cost1.toLocaleString("en-US", {style:"currency", currency:"USD"})} \n
+      Vehicle 2: ${result.cost2.toLocaleString("en-US", {style:"currency", currency:"USD"})} \n
+      ${savingVehicle} could save you ${Math.abs(result.savings).toLocaleString("en-US", {style:"currency", currency:"USD"})} per year
+    `);
 });
 
 
