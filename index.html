@@ -16,12 +16,12 @@
                 <h3>Gas Savings Calculator</h3>
                 <div class="field">
                     <label for="miles">Annual Mileage</label>
-                    <input id="miles" name="miles" placeholder="10000" type="number" required />
+                    <input id="miles" min="1" name="miles" placeholder="10000" type="number" required />
                 </div>
 
                 <div class="field">
                     <label for="fuel-cost">Cost per gallon of gas</label>
-                    <input id="fuel-cost" name="fuel-cost" step="any" type="number" placeholder="5" required />
+                    <input id="fuel-cost" min="1" name="fuel-cost" step="any" type="number" placeholder="5" required />
                 </div>
             </fieldset>
 
@@ -29,7 +29,7 @@
                 <h3>Vehicle 1</h3>
                 <div class="field">
                     <label for="mpg-1">Fuel Efficiency (miles per gallon)</label>
-                    <input id="mpg-1" name="mpg-1" placeholder="20" type="number" required />
+                    <input id="mpg-1" min="1" name="mpg-1" placeholder="20" type="number" required />
                 </div>
             </fieldset>
 
@@ -37,7 +37,7 @@
                 <h3>Vehicle 2</h3>
                 <div class="field">
                     <label for="mpg-2">Fuel Efficiency (miles per gallon)</label>
-                    <input id="mpg-2" name="mpg-2" placeholder="20" type="number" required />
+                    <input id="mpg-2" min="1" name="mpg-2" placeholder="20" type="number" required />
                 </div>
             </fieldset>
             <input id="gas-savings-submit" type="submit" value="Submit" />
