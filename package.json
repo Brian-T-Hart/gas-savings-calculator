@@ -1,0 +1,23 @@
+{
+  "name": "gas-savings-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian-T-Hart/gas-savings-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brian-T-Hart/gas-savings-calculator/issues"
+  },
+  "homepage": "https://github.com/Brian-T-Hart/gas-savings-calculator#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
