@@ -1,0 +1,3 @@
+[submodule "public/assets/js/js-form-builder"]
+	path = public/assets/js/js-form-builder
+	url = https://github.com/Brian-T-Hart/js-form-builder.git
