@@ -1,4 +1,4 @@
-import GasSavingsCalculator from './src/GasSavingsCalculator.js';
+import GasSavingsCalculator from './GasSavingsCalculator.js';
 
 const gasSavingsForm = document.getElementById('gas-savings-form');
 

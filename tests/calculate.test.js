@@ -1,4 +1,4 @@
-const GasSavingsCalculator = require('../src/GasSavingsCalculator');
+const GasSavingsCalculator = require('../public/assets/js/GasSavingsCalculator');
 
 test('calculates the gas savings', () => {
   let testData = {
